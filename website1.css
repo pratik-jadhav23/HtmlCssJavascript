@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+}
+.row{
+    width:100%;
+    /* height:13%; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    padding: 7px 30px;
+}
+.right{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: flex-end; */
+   
+}
+.menuitems{
+    /* padding: 30px 15px; */
+    color: orange;
+}
+.image{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_723,h_339/https://zolostays.com/blog/wp-content/uploads/2019/09/Raheja-MIndspace-compressor-1.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+.menuitemsBar{
+    display: none;
+}
+@media screen and (max-width:600px){
+   .row{
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+   }
+   .row .right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+   }
+
+   .image{
+    background-size: 100% 90vh;
+
+   }
+   .text .textH1 {
+    font-size: 250%;
+    
+   }
+   .text .textH4 {
+    font-size: 110%;
+    
+   }
+   .text input{
+    padding: 0px 0px;
+    font-size: 90%;
+   }
+   .subcoursecard .c1{
+    display: flex;
+    flex-direction: column;
+   }
+   .courseicon button,i{
+    font-size: xx-small;
+   }
+  .testcont{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+    /* height: 150vh; */
+
+   }
+   .testleft{
+    min-width: 80%;
+    margin-bottom: 10px;
+   }
+   .testright{
+    min-width: 80%;
+   }
+   .bottombarcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+}
+.mainPageSideBar{
+    width: 15%;
+    height: 90vh;
+    display: none;
+    z-index: 20;
+}
+.textH1{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    color:rgb(255, 153, 0);
+    font-weight: 900;
+    font-size: 300%;
+
+}
+.text h4{
+    position: relative;
+    top: 35vh;
+    color:white;
+    font-size: 120%;
+
+}
+.b{
+    position: absolute;
+    right: 45%;
+    top: 60%;
+    background: transparent;
+}
+.text input{
+    position: relative;
+    top: 40vh;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: azure;
+    font-weight: 400;
+    background:transparent;
+}
+.right:last-child{
+    padding-right: 60px;
+}
+.testMainCont{
+    width: 100%;
+    /* height: 100vh; */
+    background-color:lightyellow;
+    position: relative;
+}
+.testimoinialscontainer{
+    width: 80%;
+    position: relative;
+}
+.test{
+    text-align: center;
+    color: darkorange;
+    padding-top: 30px;
+    font-size: 60px;
+}
+h1{
+}
+.testcont{
+    width: 100%;
+    /* height: 60%; */
+    display: flex;
+    justify-content: space-around;
+   padding-bottom: 10PX;
+    /* align-items: center; */
+}
+.testleft{
+    
+    background-color:aquamarine;
+    position:relative;
+    border-radius: 3%;
+    width: 40%;
+    
+}
+.testright{
+   
+   
+    background-color: aquamarine;
+    position:relative;
+    border-radius: 3%;
+    width: 40%;
+   
+}
+.testimg{
+    width:100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.testimg img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.testimg p{
+    padding: 5px 10px;
+}
+.staricon{
+    color: gold;
+}

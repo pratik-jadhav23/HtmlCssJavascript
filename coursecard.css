@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+.coursecard{
+    margin:0px;
+    width:100%;
+    /* height:100vh; */
+    background-color:beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.coursecardHeading{
+    color: darkorange;
+    font-size: 60px;
+}
+.c1{
+    width: 100%;
+    /* height: 26.7vh; */
+    display:flex;
+    background-color: rgba(238, 238, 238, 0.849);
+    justify-content: space-between;
+
+}
+.subcoursecard{
+    /* width: 80%; */
+    /* height: 80vh; */
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 2vh;
+
+    /* background-color: black; */
+}
+.subcclass{
+    /* width: 40%; */
+    /* height: 20vh; */
+    background-color: white;
+    margin: 10px 10px ;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    
+}
+.subcclass2{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.bottom p{
+    margin-top: 1vh ;
+    margin-left: 8px;
+    color: rgba(128, 128, 128, 0.575);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.subcclasshr{
+    width: 100%;
+    margin-top: 30px;   
+}
+.courseicon{
+    width: 40%;
+    /* height: 4vh; */
+    text-align: center;
+    padding-top: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 99, 125);
+    
+}
+.courseicon button{
+    background: transparent;
+    border: none;
+    color: rgb(255, 99, 125);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.courseicon i{
+    /* margin-left: 3px; */
+    margin-top: 1px;
+    color: rgb(255, 99, 125);
+    font-size: x-small;
+}
+.subcclass2 h2{
+    color: rgb(255, 99, 125);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.subcclass2 p{
+    color: rgba(128, 128, 128, 0.575);
+    font-weight: 700;
+    font-size:12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,68 @@
+.bottombar{
+    width: 100%;
+    /* height: 60vh; */
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url("https://thumbs.dreamstime.com/b/black-color-world-map-white-background-abstract-flat-template-rectangles-web-design-brochure-flyer-annual-report-108027180.jpg") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottombarcontainer{
+    /* width: 83%;
+    height: 50vh; */
+    display: grid;
+    position: relative;
+    margin-left: 11%;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:15px;
+    background: transparent;
+}
+.Hyderabad{
+    /* background-color:red; */
+    /* background: transparent; */
+}
+.Bangalore{
+    background-color:blue;
+}
+.Chennai{
+    background-color:blueviolet;
+}
+.Company{
+    background-color:brown;
+}
+.Hyderabad h4{
+    color: white;
+}
+.Hyderabadparagraph{
+    width: 94%;
+    /* position: relative; */
+    margin-left: 10px;
+}
+
+.subHyderabad{
+    display: grid;
+    /* position: relative; */
+    gap: 20px;
+    color: gray;
+    font-weight: 600;
+
+}
+.Hydearabadicon1 i{
+    color: darkorange;
+    padding-right: 10px;
+}
+.HyderabadHeader hr{
+    width: 98%;
+    height: 1px;
+    border: none;
+    margin-top: 1vh;
+    background-color: darkorange;
+}
+.CompanyItems{
+    display: grid;
+    /* position: relative; */
+    gap: 13px;
+    color: gray;
+    font-weight: 600;
+}
